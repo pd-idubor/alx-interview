@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Lockboxes"""
 
+
 def canUnlockAll(boxes):
     opened = [0]
     for idx, box in enumerate(boxes):
