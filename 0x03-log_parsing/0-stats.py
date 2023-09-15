@@ -16,7 +16,7 @@ def log_parser():
             line_count += 1
             row = line.split()
 
-            if len(row) >= 1 and len(row) <= 9:
+            if len(row) >= 2 and len(row) <= 9:
                 if row[-1].isdigit():
                     file_size += int(row[-1])
                 if row[-2] in codes:
